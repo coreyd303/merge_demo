@@ -21,3 +21,18 @@ func checkWinner() -> Bool {
     return false
 }
 
+func letsPlay() {
+    if checkWinner() {
+        print("YOU WIN!!!!!!!!")
+    } else {
+        print("You stink")
+    }
+}
+
+letsPlay()
+
+letsPlay()
+
+letsPlay()
+
+letsPlay()
