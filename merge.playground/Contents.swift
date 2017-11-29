@@ -9,4 +9,15 @@ func rando() -> Int {
     return num
 }
 
+func checkWinner() -> Bool {
+    let roll = rando()
+
+    if roll > 2 {
+        return true
+    } else if roll > 8 {
+        return false
+    }
+
+    return false
+}
 
